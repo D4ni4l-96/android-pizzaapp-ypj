@@ -54,8 +54,14 @@ class MainActivity : AppCompatActivity() {
                 toppingsTotal += 5
             }
 
-            binding.totalTextView.text =
-                "Total Order Price = RM ${pizzaSizePrice + toppingsTotal}"
+
+
+binding.totalTextView.text =
+    "Total Order Price = RM ${pizzaSizePrice + toppingsTotal}"
+
+
+//            binding.totalTextView.text =
+//                "Total Order Price = RM ${pizzaSizePrice + toppingsTotal}"
 
 
 
